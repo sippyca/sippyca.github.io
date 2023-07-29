@@ -1,4 +1,5 @@
-site_name: Procom KB
+site_name: Knowledge Base
+site_url: https://kb.consultantsprocom.com/
 theme:
   name: material
   logo: assets/procom-logo-blanc.png
@@ -11,19 +12,18 @@ theme:
     - navigation.top
   language: en
   palette:
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
-      primary: custom
-      accent: light blue
-
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+      primary: custom
+      accent: light blue
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
       primary: custom
       accent: light blue
 
