@@ -1,0 +1,7 @@
+site_name: Procom KB
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+  language: en
