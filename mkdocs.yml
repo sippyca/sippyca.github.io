@@ -10,6 +10,7 @@ theme:
     - navigation.path
     - navigation.sections
     - navigation.top
+    - content.code.copy
   language: en
   palette:
     # Palette toggle for dark mode
@@ -32,3 +33,6 @@ extra_css:
 
 markdown_extensions:
   - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
